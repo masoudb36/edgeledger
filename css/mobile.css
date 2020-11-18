@@ -1,0 +1,46 @@
+html{
+    font-size: 50%;
+}
+
+#what .items {
+	display: block;
+	padding: 1rem;
+}
+
+#what .items .item {
+	display: flex;
+	text-align: right;
+}
+
+#what .items .item i {
+	margin-left: 1.5rem;
+	align-self: center;
+}
+
+@media (max-width: 500px) {
+	.navbar {
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar .logo {
+		margin-bottom: 1.2rem;
+		text-align: center;
+	}
+}
+.header__content{
+    top: 9rem;
+}
+#who {
+	/* display: block; */
+    flex-direction: column;
+    height: 100vh;
+}
+
+#who div {
+	display: block;
+}
+
+.contact{
+    flex-direction: column;
+    height: 100vh;
+}
